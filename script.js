@@ -10,7 +10,6 @@ var noite = document.getElementById('noite')
 var imagensDiv = document.getElementById('container')
 var tituloH1 = document.getElementById('titulo')
 var strong = document.createElement('strong')
-hora = 11
 
 if (hora <= 11){
     mensagemP.innerHTML = `<span>São <strong>${time}</strong> horas`
